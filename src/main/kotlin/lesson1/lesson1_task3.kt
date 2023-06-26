@@ -21,6 +21,6 @@ fun main() {
     hour = 10U
     minute = 55U
 
-    println(hour.toString()+":"+minute.toString())
+    println("$hour:$minute")
 
 }
