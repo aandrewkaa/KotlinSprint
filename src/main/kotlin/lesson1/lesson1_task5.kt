@@ -8,8 +8,7 @@ package lesson1
 
 fun main() {
     val seconds: Int = 6480
-
     val minute: Int = seconds / 60
 
-    println(seconds.toString().padStart(2, '0')+":"+(seconds % 60).toString().padStart(2, '0'))
+    println(String.format("%d:%02d",minute, seconds % 60))
 }
