@@ -12,7 +12,7 @@ fun main(){
 
     val sumSalaryStaff = staff * salaryStaff
     val sumSalary = sumSalaryStaff + staffTest * salaryTest
-    val salaryMedia = sumSalary/(staff+staffTest)
+    val salaryMedia = sumSalary / (staff + staffTest)
 
     println("$sumSalaryStaff – Расходы на выплату зарплаты постоянных сотрудников;")
     println("$sumSalary – Общие расходы по ЗП после прихода стажеров;")
