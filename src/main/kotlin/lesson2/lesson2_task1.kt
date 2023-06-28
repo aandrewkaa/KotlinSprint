@@ -1,6 +1,6 @@
 package lesson2
 
-/**  Created by Aandrewkaa  **/
+/**   Created by Aandrewkaa  **/
 
 /** Пишем часть школьного софта, который посчитает средний балл по английскому для этого класса.*/
 
