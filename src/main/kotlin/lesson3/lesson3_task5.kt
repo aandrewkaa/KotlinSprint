@@ -14,5 +14,4 @@ fun main() {
     println("$stepStart - откуда идем")
     println("$stepEnd - куда идем")
     println("$stepNumber - номер хода")
-
 }
