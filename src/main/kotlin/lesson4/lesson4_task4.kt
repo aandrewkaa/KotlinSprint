@@ -5,11 +5,12 @@ package lesson4
 fun main() {
 
     val treningDay = 5
+    val flagForDay = (treningDay % 2) == 1
 
     println("""
-        Упражнения для рук:    ${(treningDay % 2) == 1}
-        Упражнения для ног:    ${(treningDay % 2) == 0}
-        Упражнения для спины:  ${(treningDay % 2) == 0}
-        Упражнения для пресса: ${(treningDay % 2) == 1}
+        Упражнения для рук:    $flagForDay
+        Упражнения для ног:    ${!flagForDay}
+        Упражнения для спины:  ${!flagForDay}
+        Упражнения для пресса: $flagForDay
     """.trimIndent())
 }
