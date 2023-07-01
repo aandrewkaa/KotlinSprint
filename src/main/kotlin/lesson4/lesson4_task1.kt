@@ -19,7 +19,8 @@ package lesson4
 fun main() {
     val tableQuantityToday = 13
     val tableQuantityTomorrow = 9
-    val tableQuantityMax = 13
 
-    println("Доступность столиков на сегодня: ${tableQuantityToday < tableQuantityMax}, \n Доступность столиков на завтра: ${tableQuantityTomorrow < tableQuantityMax} ")
+    println("Доступность столиков на сегодня: ${tableQuantityToday < TABLE_QUANTITY_MAX}, \n Доступность столиков на завтра: ${tableQuantityTomorrow < TABLE_QUANTITY_MAX} ")
 }
+
+const val TABLE_QUANTITY_MAX = 13
