@@ -7,11 +7,11 @@ fun main() {
     val userPass = "password"
 
     println("Введите имя пользователя.")
-    var scaner = readLine()!!
+    var scaner = readln()
 
     if (scaner == userLogin) {
         println("Введите пароль для пользователя $userLogin")
-        scaner = readLine()!!
+        scaner = readln()
         if (scaner == userPass) {
             println("Добро пожаловать в систему!")
         } else {
