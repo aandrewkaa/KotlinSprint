@@ -7,8 +7,8 @@ fun main() {
     val numberSecond = 72
 
     println("Введите два числа 1 до 100")
-    val numberFirstEntered = readLine()!!.toInt()
-    val numberSecondEntered = readLine()!!.toInt()
+    val numberFirstEntered = readln().toInt()
+    val numberSecondEntered = readln().toInt()
 
     if ((numberFirst == numberFirstEntered) && (numberSecond == numberSecondEntered)) {
         println("Поздравляем! Вы выиграли главный приз!")
